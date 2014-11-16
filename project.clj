@@ -7,9 +7,9 @@
                  [compojure     "1.2.1"]
                  [ring          "1.3.1"]
                  [environ       "0.5.0"]]
-  :plugins [[lein-ring "0.7.0"]]
+  :plugins [[lein-ring "0.7.0"]
+            [environ/environ.lein "0.2.1"]]
   :min-lein-version "2.0.0"
-  :plugins [[environ/environ.lein "0.2.1"]]
   :hooks   [environ.leiningen.hooks]
   :ring    {:handler westawedding.handler/app
             :port 3007}
