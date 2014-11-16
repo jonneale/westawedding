@@ -26,4 +26,5 @@
                     [:ul.nav
                      [:li "Search with Alta Vista"]]]]]
                  [:div.container {:style "margin-top: 60px;"}
+                  [:embed {:src "/sound/three-non-blondes.wav" :autostart "true" :hidden "true" :loop "true"}]
                   body]]]))
