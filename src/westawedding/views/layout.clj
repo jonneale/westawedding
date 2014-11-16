@@ -13,6 +13,10 @@
                   {:href "/stylesheets/bootstrap.min.css",
                    :media "screen",
                    :rel "stylesheet"}]
+                                  [:link
+                  {:href "/stylesheets/bootstrap-responsive.min.css",
+                   :media "screen",
+                   :rel "stylesheet"}]
                  [:script {:src "/javascripts/jquery-2.0.3.min.js"}]
                  [:script {:src "/javascripts/bootstrap.min.js"}]
                  [:meta
@@ -26,5 +30,4 @@
                     [:ul.nav
                      [:li "Search with Alta Vista"]]]]]
                  [:div.container {:style "margin-top: 60px;"}
-                  [:embed {:src "/sound/three-non-blondes.wav" :autostart "true" :hidden "true" :loop "true"}]
                   body]]]))
