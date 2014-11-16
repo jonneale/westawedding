@@ -7,6 +7,7 @@
                  [compojure     "1.2.1"]
                  [ring          "1.3.1"]]
   :plugins [[lein-ring "0.7.0"]]
+  :min-lein-version "2.0.0"
   :ring    {:handler westawedding.handler/app
             :port 3007}
   :main    westawedding.main
