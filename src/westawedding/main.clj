@@ -1,6 +1,7 @@
 (ns westawedding.main
   (:require [westawedding.handler :as api]
-            [ring.adapter.jetty :as jetty])
+            [ring.adapter.jetty   :as jetty]
+            [environ.core         :refer [env]])
   (:gen-class))
 
 (defn -main [& [port]]
